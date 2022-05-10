@@ -1,0 +1,999 @@
+ERROR - 2022-05-07 19:22:53 --> Column 'dpi' cannot be null
+ERROR - 2022-05-07 19:22:56 --> Column 'dpi' cannot be null
+CRITICAL - 2022-05-07 19:39:05 --> syntax error, unexpected token "(", expecting variable
+#0 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 19:39:15 --> syntax error, unexpected token "(", expecting variable
+#0 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 19:40:03 --> Undefined property: App\Controllers\Internautas::$require
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Internautas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Internautas->guardarUsuario()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Internautas))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 19:41:38 --> Undefined property: App\Controllers\Internautas::$require
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Internautas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Internautas->guardarUsuario()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Internautas))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 19:41:39 --> Undefined property: App\Controllers\Internautas::$require
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Internautas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Internautas->guardarUsuario()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Internautas))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 19:41:39 --> Undefined property: App\Controllers\Internautas::$require
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Internautas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Internautas->guardarUsuario()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Internautas))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 19:42:45 --> Undefined property: App\Controllers\Internautas::$require
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Internautas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Internautas->guardarUsuario()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Internautas))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 19:45:10 --> Undefined property: App\Controllers\Internautas::$require
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Internautas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Internautas->guardarUsuario()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Internautas))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 19:45:30 --> Undefined property: App\Controllers\Internautas::$require
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Internautas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Internautas->guardarUsuario()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Internautas))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 19:45:31 --> Undefined property: App\Controllers\Internautas::$require
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Internautas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Internautas->guardarUsuario()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Internautas))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 19:45:32 --> Undefined property: App\Controllers\Internautas::$require
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Internautas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Internautas->guardarUsuario()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Internautas))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 19:45:32 --> Undefined property: App\Controllers\Internautas::$require
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Internautas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Internautas->guardarUsuario()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Internautas))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 19:45:33 --> Undefined property: App\Controllers\Internautas::$require
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Internautas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Internautas->guardarUsuario()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Internautas))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 19:45:33 --> Undefined property: App\Controllers\Internautas::$require
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Internautas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Internautas->guardarUsuario()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Internautas))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 19:45:33 --> Undefined property: App\Controllers\Internautas::$require
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Internautas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Internautas->guardarUsuario()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Internautas))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 19:55:57 --> Undefined property: App\Controllers\Usuarios::$require
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->guardarUsuario()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 19:57:20 --> Undefined property: App\Controllers\Usuarios::$require
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->guardarUsuario()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 20:32:00 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:32:02 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:33:18 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1009916131106')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:33:20 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1009916131106')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:33:23 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1009916131106')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:34:04 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1009916131106')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:34:56 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:34:58 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:34:59 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:34:59 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:34:59 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:35:00 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:35:00 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:35:00 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:35:01 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:35:01 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:35:01 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:35:21 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1010403910608')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:46:17 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1010403910608')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:46:23 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1010403910608')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:47:19 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1010403910608')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:52:37 --> Undefined property: App\Controllers\Usuarios::$require
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->guardarUsuario()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 20:56:25 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1010403910608')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:56:27 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1010403910608')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-07 20:58:42 --> Duplicate entry '1027318250807' for key 'PRIMARY'
+CRITICAL - 2022-05-07 20:58:43 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 20:58:45 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-07 20:58:48 --> Duplicate entry '1027318250807' for key 'PRIMARY'
+ERROR - 2022-05-07 21:00:14 --> Duplicate entry '1027318250807' for key 'PRIMARY'
+CRITICAL - 2022-05-07 21:00:16 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-07 21:01:44 --> Duplicate entry '1027318250807' for key 'PRIMARY'
+ERROR - 2022-05-07 21:01:45 --> Duplicate entry '1027318250807' for key 'PRIMARY'
+CRITICAL - 2022-05-07 21:01:46 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:01:48 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:02:47 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-07 21:02:49 --> Duplicate entry '1027318250807' for key 'PRIMARY'
+ERROR - 2022-05-07 21:02:51 --> Duplicate entry '1027318250807' for key 'PRIMARY'
+CRITICAL - 2022-05-07 21:02:52 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(112): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-07 21:02:54 --> Duplicate entry '1027318250807' for key 'PRIMARY'
+ERROR - 2022-05-07 21:03:54 --> Duplicate entry '1027318250807' for key 'PRIMARY'
+ERROR - 2022-05-07 21:04:01 --> Duplicate entry '1027318250807' for key 'PRIMARY'
+ERROR - 2022-05-07 21:08:09 --> Duplicate entry '1027318250807' for key 'PRIMARY'
+CRITICAL - 2022-05-07 21:08:10 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(111): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:08:15 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(111): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:08:32 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(111): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-07 21:08:33 --> Duplicate entry '1027318250807' for key 'PRIMARY'
+ERROR - 2022-05-07 21:08:35 --> Duplicate entry '1027318250807' for key 'PRIMARY'
+ERROR - 2022-05-07 21:08:36 --> Duplicate entry '1027318250807' for key 'PRIMARY'
+CRITICAL - 2022-05-07 21:08:42 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(111): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:12:01 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(111): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:12:04 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(111): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:12:04 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(111): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:12:05 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(111): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:13:04 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(111): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:13:08 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(111): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:14:09 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(111): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:17:22 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(111): view('administradores...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:17:24 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(111): view('administradores...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:20:51 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(111): view('administradores...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:23:33 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(111): view('administradores...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:23:37 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Usuarios.php(111): view('administradores...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Usuarios->frmModificarUsuarios('1027318250807')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:47:05 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Tipos.php(36): view('administradores...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Tipos->frmModificarTipos('4')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tipos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-07 21:48:42 --> Duplicate entry '4' for key 'PRIMARY'
+ERROR - 2022-05-07 21:48:43 --> Duplicate entry '4' for key 'PRIMARY'
+ERROR - 2022-05-07 21:48:44 --> Duplicate entry '4' for key 'PRIMARY'
+ERROR - 2022-05-07 21:48:44 --> Duplicate entry '4' for key 'PRIMARY'
+CRITICAL - 2022-05-07 21:48:50 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Tipos.php(36): view('administradores...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Tipos->frmModificarTipos('4')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tipos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-07 21:48:52 --> Duplicate entry '4' for key 'PRIMARY'
+ERROR - 2022-05-07 21:48:55 --> Duplicate entry '4' for key 'PRIMARY'
+ERROR - 2022-05-07 21:48:56 --> Duplicate entry '4' for key 'PRIMARY'
+ERROR - 2022-05-07 21:48:57 --> Duplicate entry '4' for key 'PRIMARY'
+ERROR - 2022-05-07 21:51:19 --> Duplicate entry '4' for key 'PRIMARY'
+CRITICAL - 2022-05-07 21:51:20 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Tipos.php(36): view('administradores...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Tipos->frmModificarTipos('4')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tipos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-07 21:51:24 --> Duplicate entry '4' for key 'PRIMARY'
+CRITICAL - 2022-05-07 21:51:26 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Tipos.php(36): view('administradores...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Tipos->frmModificarTipos('3')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tipos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-07 21:51:28 --> Duplicate entry '4' for key 'PRIMARY'
+ERROR - 2022-05-07 21:51:29 --> Duplicate entry '4' for key 'PRIMARY'
+ERROR - 2022-05-07 21:51:32 --> Duplicate entry '4' for key 'PRIMARY'
+ERROR - 2022-05-07 21:53:08 --> Duplicate entry '4' for key 'PRIMARY'
+CRITICAL - 2022-05-07 21:53:09 --> Undefined variable $tipo
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\tiposusuarios.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Tipos.php(64): view('administradores...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Tipos->eliminarTipos('4')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tipos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:53:11 --> Undefined variable $tipo
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\tiposusuarios.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Tipos.php(64): view('administradores...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Tipos->eliminarTipos('4')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tipos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:53:46 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Tipos.php(36): view('administradores...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Tipos->frmModificarTipos('3')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tipos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:54:14 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Tipos.php(36): view('administradores...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Tipos->frmModificarTipos('3')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tipos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 21:54:39 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Tipos.php(36): view('administradores...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Tipos->frmModificarTipos('3')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tipos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-07 22:03:59 --> Duplicate entry '5' for key 'PRIMARY'
+ERROR - 2022-05-07 22:07:05 --> Duplicate entry '5' for key 'PRIMARY'
+ERROR - 2022-05-07 22:08:44 --> Duplicate entry '5' for key 'PRIMARY'
+ERROR - 2022-05-07 22:08:45 --> Duplicate entry '5' for key 'PRIMARY'
+CRITICAL - 2022-05-07 22:08:47 --> Invalid file: aguardaractualizacion/actualizartipo.php
+#0 C:\xampp\htdocs\trabajo_final\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('aguardaractuali...')
+#1 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('aguardaractuali...', Array, true)
+#2 C:\xampp\htdocs\trabajo_final\app\Controllers\Tipos.php(36): view('aguardaractuali...', Array)
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Tipos->frmModificarTipos('5')
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tipos))
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 22:09:18 --> Invalid file: aguardaractualizacion/actualizartipo.php
+#0 C:\xampp\htdocs\trabajo_final\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('aguardaractuali...')
+#1 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('aguardaractuali...', Array, true)
+#2 C:\xampp\htdocs\trabajo_final\app\Controllers\Tipos.php(36): view('aguardaractuali...', Array)
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Tipos->frmModificarTipos('5')
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tipos))
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-07 22:09:19 --> Duplicate entry '5' for key 'PRIMARY'
+ERROR - 2022-05-07 22:09:22 --> Duplicate entry '5' for key 'PRIMARY'
+CRITICAL - 2022-05-07 22:09:24 --> Invalid file: aguardaractualizacion/actualizartipo.php
+#0 C:\xampp\htdocs\trabajo_final\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('aguardaractuali...')
+#1 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('aguardaractuali...', Array, true)
+#2 C:\xampp\htdocs\trabajo_final\app\Controllers\Tipos.php(36): view('aguardaractuali...', Array)
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Tipos->frmModificarTipos('5')
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tipos))
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-07 22:10:56 --> Duplicate entry '5' for key 'PRIMARY'
+ERROR - 2022-05-07 22:10:58 --> Duplicate entry '5' for key 'PRIMARY'
+ERROR - 2022-05-07 22:10:58 --> Duplicate entry '5' for key 'PRIMARY'
+CRITICAL - 2022-05-07 22:14:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizartipo.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Tipos.php(37): view('administradores...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Tipos->frmModificarTipos('5')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tipos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-07 22:15:06 --> Duplicate entry '6' for key 'PRIMARY'
+CRITICAL - 2022-05-07 22:15:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\actualizartipo.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Tipos.php(37): view('administradores...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Tipos->frmModificarTipos('5')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tipos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 23:36:11 --> Call to undefined method App\Models\Ciudadano::ordeBy
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Operadores.php(11): CodeIgniter\Model->__call('ordeBy', Array)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Operadores->cargarCiudadanosoperador()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operadores))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 23:36:12 --> Call to undefined method App\Models\Ciudadano::ordeBy
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Operadores.php(11): CodeIgniter\Model->__call('ordeBy', Array)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Operadores->cargarCiudadanosoperador()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operadores))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 23:36:51 --> Call to undefined method App\Models\Ciudadano::ordeBy
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Operadores.php(11): CodeIgniter\Model->__call('ordeBy', Array)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Operadores->cargarCiudadanosoperador()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operadores))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 23:36:57 --> Call to undefined method App\Models\Ciudadano::ordeBy
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Operadores.php(11): CodeIgniter\Model->__call('ordeBy', Array)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Operadores->cargarCiudadanosoperador()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operadores))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 23:38:27 --> Call to undefined method App\Models\Ciudadano::ordeBy
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Operadores.php(11): CodeIgniter\Model->__call('ordeBy', Array)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Operadores->cargarCiudadanosoperador()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operadores))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 23:38:28 --> Call to undefined method App\Models\Ciudadano::ordeBy
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Operadores.php(11): CodeIgniter\Model->__call('ordeBy', Array)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Operadores->cargarCiudadanosoperador()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operadores))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 23:38:28 --> Call to undefined method App\Models\Ciudadano::ordeBy
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Operadores.php(11): CodeIgniter\Model->__call('ordeBy', Array)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Operadores->cargarCiudadanosoperador()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operadores))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 23:38:29 --> Call to undefined method App\Models\Ciudadano::ordeBy
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Operadores.php(11): CodeIgniter\Model->__call('ordeBy', Array)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Operadores->cargarCiudadanosoperador()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operadores))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 23:39:22 --> Call to undefined method App\Models\Ciudadano::ordeBy
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Operadores.php(11): CodeIgniter\Model->__call('ordeBy', Array)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Operadores->cargarCiudadanosoperador()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operadores))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 23:39:30 --> Call to undefined method App\Models\Ciudadano::ordeBy
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Operadores.php(11): CodeIgniter\Model->__call('ordeBy', Array)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Operadores->cargarCiudadanosoperador()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operadores))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 23:40:41 --> Undefined variable $ciudadano
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\operador.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/oper...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Home.php(13): view('operadores/oper...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 23:40:42 --> Undefined variable $ciudadano
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\operador.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/oper...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Home.php(13): view('operadores/oper...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 23:41:00 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\administrador.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Home.php(13): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 23:41:01 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\administrador.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Home.php(13): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 23:41:02 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\administrador.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Home.php(13): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 23:41:02 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\trabajo_final\app\Views\administradores\administrador.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('administradores...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Home.php(13): view('administradores...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 23:42:50 --> Call to undefined method App\Models\Ciudadano::ordeBy
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Operadores.php(11): CodeIgniter\Model->__call('ordeBy', Array)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Operadores->cargarCiudadanosoperador()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operadores))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 23:44:44 --> Call to undefined method App\Models\Ciudadano::ordeBy
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Operadores.php(11): CodeIgniter\Model->__call('ordeBy', Array)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Operadores->cargarCiudadanosoperador()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operadores))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 23:44:45 --> Call to undefined method App\Models\Ciudadano::ordeBy
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Operadores.php(11): CodeIgniter\Model->__call('ordeBy', Array)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Operadores->cargarCiudadanosoperador()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operadores))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 23:45:21 --> Call to undefined method App\Models\Ciudadano::ordeBy
+#0 C:\xampp\htdocs\trabajo_final\app\Controllers\Operadores.php(11): CodeIgniter\Model->__call('ordeBy', Array)
+#1 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Operadores->cargarCiudadanosoperador()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operadores))
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 23:45:31 --> Undefined variable $ciudadanos
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\operador.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/oper...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(11): view('operadores/oper...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->cargarCiudadanos()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

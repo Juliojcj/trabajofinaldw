@@ -1,0 +1,1226 @@
+ERROR - 2022-05-08 09:26:52 --> Unknown column 'tipousuario_id' in 'order clause'
+CRITICAL - 2022-05-08 09:26:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->guardarCiudadanos()
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 09:26:54 --> Duplicate entry '1027037260910' for key 'PRIMARY'
+ERROR - 2022-05-08 09:26:54 --> Unknown column 'tipousuario_id' in 'order clause'
+CRITICAL - 2022-05-08 09:26:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->guardarCiudadanos()
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 09:27:05 --> Duplicate entry '1027037260910' for key 'PRIMARY'
+ERROR - 2022-05-08 09:27:05 --> Unknown column 'tipousuario_id' in 'order clause'
+CRITICAL - 2022-05-08 09:27:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->guardarCiudadanos()
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 09:29:20 --> Unknown column 'tipousuario_id' in 'order clause'
+CRITICAL - 2022-05-08 09:29:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->guardarCiudadanos()
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 09:30:15 --> Duplicate entry '1028053360390' for key 'PRIMARY'
+ERROR - 2022-05-08 09:31:58 --> Duplicate entry '1028053360390' for key 'PRIMARY'
+ERROR - 2022-05-08 09:45:24 --> Duplicate entry '1028053360390' for key 'PRIMARY'
+ERROR - 2022-05-08 09:50:15 --> Duplicate entry '1028053360390' for key 'PRIMARY'
+CRITICAL - 2022-05-08 09:50:29 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1027037260910')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 09:50:31 --> Duplicate entry '1028053360390' for key 'PRIMARY'
+CRITICAL - 2022-05-08 09:53:01 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1028053360390')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 09:53:03 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1028053360390')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 09:55:38 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 09:56:37 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1028053360390')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:03:58 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:04:00 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:05:46 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:10:55 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:14:19 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:14:51 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:19:08 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:19:17 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:20:09 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1009916131106')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:27:03 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1033442610404')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:31:47 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:32:01 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1009916131106')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:33:50 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 10:39:45 --> Duplicate entry '1028053360390' for key 'PRIMARY'
+ERROR - 2022-05-08 10:40:21 --> Duplicate entry '1028053360390' for key 'PRIMARY'
+CRITICAL - 2022-05-08 10:43:16 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:44:13 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1028053360390')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 10:44:15 --> Duplicate entry '1028053360390' for key 'PRIMARY'
+ERROR - 2022-05-08 10:50:16 --> Cannot add or update a child row: a foreign key constraint fails (`bd_proyecto`.`ciudadanos`, CONSTRAINT `ciudadanos_ibfk_2` FOREIGN KEY (`cod_nivel_acad`) REFERENCES `nivelesacademicos` (`cod_nivel_acad`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-05-08 10:50:18 --> Undefined variable $ciudadano
+#0 C:\xampp\htdocs\trabajo_final\app\Views\ciudadanos\personas.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('ciudadanos/pers...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Home.php(17): view('ciudadanos/pers...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:50:20 --> Undefined variable $ciudadano
+#0 C:\xampp\htdocs\trabajo_final\app\Views\ciudadanos\personas.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('ciudadanos/pers...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Home.php(17): view('ciudadanos/pers...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:50:21 --> Undefined variable $ciudadano
+#0 C:\xampp\htdocs\trabajo_final\app\Views\ciudadanos\personas.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('ciudadanos/pers...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Home.php(17): view('ciudadanos/pers...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 11:08:06 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 11:12:28 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 11:12:48 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 11:15:19 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 11:15:20 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 11:15:20 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 11:15:20 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 11:15:21 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 11:15:21 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 11:15:21 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 11:15:21 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 11:15:22 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 11:15:22 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\actualizar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Ciudadanos.php(55): view('operadores/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->actualizarCiudadanos('1005309671217')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 11:45:35 --> Column 'dpi' cannot be null
+CRITICAL - 2022-05-08 11:47:12 --> Undefined variable $region
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\region.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/regi...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(31): view('encargados/regi...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->guardarRegion()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 11:47:14 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-05-08 11:47:14 --> Undefined variable $region
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\region.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/regi...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(31): view('encargados/regi...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->guardarRegion()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 11:48:00 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 11:55:22 --> Unknown column 'dpi' in 'where clause'
+CRITICAL - 2022-05-08 11:55:22 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(37): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->veractualizarRegion('1')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 11:55:26 --> Unknown column 'dpi' in 'where clause'
+CRITICAL - 2022-05-08 11:55:26 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(37): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->veractualizarRegion('1')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 11:59:11 --> Unknown column 'dpi' in 'where clause'
+CRITICAL - 2022-05-08 11:59:11 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(37): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->veractualizarRegion('1')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 12:00:29 --> Unknown column 'dpi' in 'where clause'
+CRITICAL - 2022-05-08 12:00:29 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(37): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->veractualizarRegion('1')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 12:00:32 --> Unknown column 'dpi' in 'where clause'
+CRITICAL - 2022-05-08 12:00:32 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(37): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->veractualizarRegion('1')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 12:12:23 --> Unknown column 'dpi' in 'where clause'
+CRITICAL - 2022-05-08 12:12:23 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(37): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->veractualizarRegion('1')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 12:12:40 --> Unknown column 'dpi' in 'where clause'
+CRITICAL - 2022-05-08 12:12:40 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(37): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->veractualizarRegion('1')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 12:17:17 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:18:15 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:18:27 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:20:00 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:21:52 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:22:08 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:23:20 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:23:26 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:23:45 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:24:27 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:24:33 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:26:46 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-05-08 12:26:48 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\ciudadanos.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/ciud...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(63): view('operadores/ciud...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->eliminarRegion('1')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 12:26:50 --> Undefined array key "dpi"
+#0 C:\xampp\htdocs\trabajo_final\app\Views\operadores\ciudadanos.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('operadores/ciud...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(63): view('operadores/ciud...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->eliminarRegion('1')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 12:27:49 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:27:51 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:27:52 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:27:53 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-05-08 12:27:58 --> Undefined variable $region
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\region.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/regi...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(63): view('encargados/regi...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->eliminarRegion('1')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 12:28:09 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:10 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:10 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:11 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:17 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:20 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:21 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:21 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:22 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:23 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:23 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:23 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:23 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:23 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:23 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:24 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:24 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:24 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:24 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:24 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:24 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:24 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:28:24 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-05-08 12:28:29 --> Undefined variable $region
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\region.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/regi...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(63): view('encargados/regi...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->eliminarRegion('1')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 12:29:42 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:29:44 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:29:53 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-05-08 12:29:56 --> Undefined variable $region
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\region.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/regi...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(64): view('encargados/regi...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->eliminarRegion('1')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 12:29:57 --> Undefined variable $region
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\region.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/regi...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(64): view('encargados/regi...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->eliminarRegion('1')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 12:30:18 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:30:41 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:34:41 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:34:47 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 12:35:17 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 12:35:19 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 12:37:49 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 12:37:54 --> Unknown column 'cod_regionASC' in 'order clause'
+CRITICAL - 2022-05-08 12:37:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(56): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->actualizarRegion()
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 12:39:25 --> Unknown column 'cod_regionASC' in 'order clause'
+CRITICAL - 2022-05-08 12:39:25 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(56): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->actualizarRegion()
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 12:39:35 --> Unknown column 'cod_regionASC' in 'order clause'
+CRITICAL - 2022-05-08 12:39:35 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(56): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->actualizarRegion()
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 12:41:20 --> Unknown column 'cod_regionASC' in 'order clause'
+CRITICAL - 2022-05-08 12:41:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(55): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->actualizarRegion()
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 12:41:22 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 12:41:33 --> Unknown column 'cod_regionASC' in 'order clause'
+CRITICAL - 2022-05-08 12:41:33 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(55): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->actualizarRegion()
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 12:41:35 --> Unknown column 'cod_regionASC' in 'order clause'
+CRITICAL - 2022-05-08 12:41:35 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(55): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->actualizarRegion()
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 12:41:37 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 12:42:12 --> Duplicate entry '9' for key 'PRIMARY'
+CRITICAL - 2022-05-08 13:00:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\actualizarregion.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Regiones.php(39): view('encargados/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Regiones->veractualizarRegion('1')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 13:24:40 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 13:25:25 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 13:25:47 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-05-08 13:25:47 --> Unknown column 'cod_region' in 'order clause'
+CRITICAL - 2022-05-08 13:25:47 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->guardarNivel()
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 13:25:54 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-05-08 13:25:54 --> Unknown column 'cod_region' in 'order clause'
+CRITICAL - 2022-05-08 13:25:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->guardarNivel()
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 13:27:11 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-05-08 13:27:11 --> Unknown column 'cod_region' in 'order clause'
+CRITICAL - 2022-05-08 13:27:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->guardarNivel()
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-08 13:28:24 --> Unterminated comment starting line 34
+#0 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 13:28:26 --> Unterminated comment starting line 34
+#0 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 13:28:30 --> Unterminated comment starting line 34
+#0 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 13:28:31 --> Unterminated comment starting line 34
+#0 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 13:28:39 --> Unterminated comment starting line 34
+#0 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 13:29:24 --> Unterminated comment starting line 34
+#0 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 13:30:14 --> Unterminated comment starting line 34
+#0 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\trabajo_final\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-08 14:08:20 --> Duplicate entry '9' for key 'PRIMARY'
+CRITICAL - 2022-05-08 14:08:20 --> Array to string conversion
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\nivelacad.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/nive...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(32): view('encargados/nive...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->guardarNivel()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 14:08:22 --> Duplicate entry '9' for key 'PRIMARY'
+CRITICAL - 2022-05-08 14:08:22 --> Array to string conversion
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\nivelacad.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/nive...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(32): view('encargados/nive...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->guardarNivel()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 14:08:25 --> Duplicate entry '9' for key 'PRIMARY'
+CRITICAL - 2022-05-08 14:08:25 --> Array to string conversion
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\nivelacad.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/nive...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(32): view('encargados/nive...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->guardarNivel()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 14:08:26 --> Duplicate entry '9' for key 'PRIMARY'
+CRITICAL - 2022-05-08 14:08:26 --> Array to string conversion
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\nivelacad.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/nive...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(32): view('encargados/nive...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->guardarNivel()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 14:10:05 --> Duplicate entry '9' for key 'PRIMARY'
+CRITICAL - 2022-05-08 14:10:05 --> Array to string conversion
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\nivelacad.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/nive...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(32): view('encargados/nive...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->guardarNivel()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 14:10:06 --> Duplicate entry '9' for key 'PRIMARY'
+CRITICAL - 2022-05-08 14:10:06 --> Array to string conversion
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\nivelacad.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/nive...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(32): view('encargados/nive...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->guardarNivel()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 14:10:06 --> Duplicate entry '9' for key 'PRIMARY'
+CRITICAL - 2022-05-08 14:10:06 --> Array to string conversion
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\nivelacad.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/nive...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(32): view('encargados/nive...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->guardarNivel()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 14:12:42 --> Duplicate entry '9' for key 'PRIMARY'
+CRITICAL - 2022-05-08 14:12:42 --> Array to string conversion
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\nivelacad.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/nive...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(32): view('encargados/nive...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->guardarNivel()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 14:12:57 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:13:57 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:14:27 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:14:30 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:14:34 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:15:25 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:19:13 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:19:15 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:27:47 --> Unknown column 'cod_region' in 'where clause'
+CRITICAL - 2022-05-08 14:27:47 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(38): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->veractualizarNivel('8')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 14:27:49 --> Unknown column 'cod_region' in 'where clause'
+CRITICAL - 2022-05-08 14:27:49 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(38): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->veractualizarNivel('8')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 14:28:52 --> Unknown column 'cod_region' in 'where clause'
+CRITICAL - 2022-05-08 14:28:52 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(38): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->veractualizarNivel('0')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 14:28:54 --> Unknown column 'cod_region' in 'where clause'
+CRITICAL - 2022-05-08 14:28:54 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(38): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->veractualizarNivel('0')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 14:28:57 --> Unknown column 'cod_region' in 'where clause'
+CRITICAL - 2022-05-08 14:28:57 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(38): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->veractualizarNivel('8')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 14:29:25 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:29:27 --> Unknown column 'cod_region' in 'where clause'
+CRITICAL - 2022-05-08 14:29:27 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(38): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->veractualizarNivel('9')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 14:29:30 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:30:11 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:30:14 --> Unknown column 'cod_region' in 'where clause'
+CRITICAL - 2022-05-08 14:30:14 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(38): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->veractualizarNivel('9')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 14:30:16 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:31:02 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:31:03 --> Unknown column 'cod_region' in 'where clause'
+CRITICAL - 2022-05-08 14:31:03 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(38): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->veractualizarNivel('9')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 14:32:47 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:32:50 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:32:52 --> Unknown column 'cod_region' in 'where clause'
+CRITICAL - 2022-05-08 14:32:52 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(38): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->veractualizarNivel('9')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 14:32:54 --> Unknown column 'cod_region' in 'where clause'
+CRITICAL - 2022-05-08 14:32:54 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(38): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->veractualizarNivel('9')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 14:33:04 --> Unknown column 'cod_region' in 'where clause'
+CRITICAL - 2022-05-08 14:33:04 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(38): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->veractualizarNivel('9')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 14:33:05 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:33:07 --> Unknown column 'cod_region' in 'where clause'
+CRITICAL - 2022-05-08 14:33:07 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\trabajo_final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\trabajo_final\app\Controllers\Nivelesacademicos.php(38): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Nivelesacademicos->veractualizarNivel('9')
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nivelesacademicos))
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 14:33:09 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:34:23 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 14:35:09 --> Duplicate entry '9' for key 'PRIMARY'
+CRITICAL - 2022-05-08 14:57:39 --> Undefined variable $nivel
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\nivelacad.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/nive...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Municipios.php(65): view('encargados/nive...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Municipios->eliminarMuni('300')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 14:57:41 --> Undefined variable $nivel
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\nivelacad.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/nive...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Municipios.php(65): view('encargados/nive...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Municipios->eliminarMuni('300')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 14:59:01 --> Undefined variable $nivel
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\nivelacad.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/nive...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Municipios.php(65): view('encargados/nive...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Municipios->eliminarMuni('300')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 14:59:09 --> Duplicate entry '300' for key 'PRIMARY'
+ERROR - 2022-05-08 14:59:12 --> Duplicate entry '300' for key 'PRIMARY'
+ERROR - 2022-05-08 15:00:08 --> Duplicate entry '300' for key 'PRIMARY'
+CRITICAL - 2022-05-08 15:00:11 --> Undefined variable $nivel
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\nivelacad.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/nive...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Municipios.php(65): view('encargados/nive...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Municipios->eliminarMuni('300')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 15:00:13 --> Undefined variable $nivel
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\nivelacad.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/nive...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Municipios.php(65): view('encargados/nive...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Municipios->eliminarMuni('300')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 15:00:22 --> Invalid file: encargados/nivelmuni.php
+#0 C:\xampp\htdocs\trabajo_final\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('encargados/nive...')
+#1 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/nive...', Array, true)
+#2 C:\xampp\htdocs\trabajo_final\app\Controllers\Municipios.php(56): view('encargados/nive...', Array)
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Municipios->actualizarMuni()
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 15:00:24 --> Invalid file: encargados/nivelmuni.php
+#0 C:\xampp\htdocs\trabajo_final\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('encargados/nive...')
+#1 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/nive...', Array, true)
+#2 C:\xampp\htdocs\trabajo_final\app\Controllers\Municipios.php(56): view('encargados/nive...', Array)
+#3 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Municipios->actualizarMuni()
+#4 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-08 15:01:47 --> Duplicate entry '300' for key 'PRIMARY'
+CRITICAL - 2022-05-08 15:09:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\actualizarmuni.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Municipios.php(39): view('encargados/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Municipios->veractualizarMuni('300')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Municipios))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 15:16:14 --> Undefined variable $datos
+#0 C:\xampp\htdocs\trabajo_final\app\Views\usuarios\usuario.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/usuari...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Home.php(13): view('usuarios/usuari...')
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 15:59:49 --> Duplicate entry '5' for key 'PRIMARY'
+ERROR - 2022-05-08 15:59:53 --> Duplicate entry '5' for key 'PRIMARY'
+ERROR - 2022-05-08 16:01:20 --> Duplicate entry '5' for key 'PRIMARY'
+ERROR - 2022-05-08 16:01:34 --> Duplicate entry '5' for key 'PRIMARY'
+ERROR - 2022-05-08 16:02:21 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 16:02:24 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 16:02:40 --> Duplicate entry '9' for key 'PRIMARY'
+ERROR - 2022-05-08 16:06:29 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-05-08 16:06:30 --> Undefined variable $regiones
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\actualizardepto.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Departamentos.php(39): view('encargados/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Departamentos->veractualizarDepartamento('1')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 16:06:32 --> Undefined variable $regiones
+#0 C:\xampp\htdocs\trabajo_final\app\Views\encargados\actualizardepto.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trabajo_final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trabajo_final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trabajo_final\system\Common.php(1089): CodeIgniter\View\View->render('encargados/actu...', Array, true)
+#4 C:\xampp\htdocs\trabajo_final\app\Controllers\Departamentos.php(39): view('encargados/actu...', Array)
+#5 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(832): App\Controllers\Departamentos->veractualizarDepartamento('1')
+#6 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+#7 C:\xampp\htdocs\trabajo_final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trabajo_final\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-08 16:06:34 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 16:06:58 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 16:07:03 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 16:07:52 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 16:07:53 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-05-08 16:38:02 --> Incorrect database name 'id18903320_bd_fianltabajo	'
+CRITICAL - 2022-05-08 16:38:02 --> Call to a member function getNumRows() on bool
+#0 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#1 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd2/320/18903320/public_html/trabajo_final/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-08 16:38:34 --> Incorrect database name 'id18903320_bd_fianltabajo	'
+CRITICAL - 2022-05-08 16:38:34 --> Call to a member function getNumRows() on bool
+#0 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#1 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd2/320/18903320/public_html/trabajo_final/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-08 16:40:10 --> Incorrect database name 'id18903320_bd_fianltabajo	'
+CRITICAL - 2022-05-08 16:40:10 --> Call to a member function getNumRows() on bool
+#0 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#1 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd2/320/18903320/public_html/trabajo_final/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-08 16:40:40 --> Incorrect database name 'id18903320_bd_fianltabajo	'
+CRITICAL - 2022-05-08 16:40:40 --> Call to a member function getNumRows() on bool
+#0 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#1 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd2/320/18903320/public_html/trabajo_final/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-08 16:44:02 --> Incorrect database name 'id18903320_bd_fianltabajo	'
+CRITICAL - 2022-05-08 16:44:02 --> Call to a member function getNumRows() on bool
+#0 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#1 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd2/320/18903320/public_html/trabajo_final/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-08 16:45:59 --> Incorrect database name 'id18903320_bd_fianltabajo	'
+CRITICAL - 2022-05-08 16:45:59 --> Call to a member function getNumRows() on bool
+#0 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#1 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd2/320/18903320/public_html/trabajo_final/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-08 17:05:32 --> Incorrect database name 'id18903320_bd_fianltabajo	'
+CRITICAL - 2022-05-08 17:05:32 --> Call to a member function getResult() on bool
+#0 /storage/ssd2/320/18903320/public_html/trabajo_final/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /storage/ssd2/320/18903320/public_html/trabajo_final/app/Controllers/Usuarios.php(53): CodeIgniter\BaseModel->findAll()
+#2 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(832): App\Controllers\Usuarios->cargarInternautas()
+#3 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#4 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/ssd2/320/18903320/public_html/trabajo_final/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-08 17:05:52 --> Incorrect database name 'id18903320_bd_fianltabajo	'
+CRITICAL - 2022-05-08 17:05:52 --> Call to a member function getResult() on bool
+#0 /storage/ssd2/320/18903320/public_html/trabajo_final/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /storage/ssd2/320/18903320/public_html/trabajo_final/app/Controllers/Usuarios.php(53): CodeIgniter\BaseModel->findAll()
+#2 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(832): App\Controllers\Usuarios->cargarInternautas()
+#3 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#4 /storage/ssd2/320/18903320/public_html/trabajo_final/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/ssd2/320/18903320/public_html/trabajo_final/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
